@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>crystal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body>
+	<div class="row cchead">
+		<h1 class="hheader"> Crystal Collector!</h1>
+	</div>
+	<div class="row">
+		<div class="col-xs-2 col-sm-2 col-md-2"></div>
+		<div class="col-xs-8 col-sm-8 col-md-8">
+			<div class="jumbotron">
+				<div class="jb">
+					<h1 class="ihead">Instructions</h1>
+					<p>You have been given a random number at the start of the game.</p>
+					<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+					<p>You will win the game by matching the total score to the random number, you will lose the game if the tolal exceeds the random number.</p>
+					<p>The value of each crystal is hidden from you until you click on it. </p>
+					<p>Each time the game starts, the game will change the values of each crystal.</p>
+				</div>
+			</div>	
+		</div>
+		<div class="col-xs-2 col-sm-2 col-md-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-3 "></div>
+		<div class="col-xs-2 col-sm-2 col-md-2 score">
+			<h1 id="sysScore">Score:</h1>
+		</div>
+		<div class="col-xs-2 col-sm-2 col-md-2 wins ">
+			<h1 id="wins">Wins:</h1>
+		</div>
+		<div class="col-xs-2 col-sm-2 col-md-2 losses">
+			<h1 id="losses">Losses:</h1>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-xs-4 col-sm-4 col-md-4"></div>
+		<div>
+			<img class="crystals" src="assets/images/red.jpg" alt="">
+			<img class="crystals" src="assets/images/blue.jpg" alt="">
+			<img class="crystals" src="assets/images/orange.jpg" alt="">
+			<img class="crystals" src="assets/images/green.jpg" alt="">
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3"></div>
+	</div>	
+	<div class="row">
+		<div class="col-xs-4 col-sm-4 col-md-4"></div>
+		<div class="col-xs-3 col-sm-3 col-md-3 score">
+			<h1 id="myscore">Your Score is:</h1>
+		</div>	
+		<div class="col-xs-3 col-sm-3 col-md-3"></div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

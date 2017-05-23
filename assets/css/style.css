@@ -1,0 +1,58 @@
+body{
+	background:lightblue;
+}
+.cchead{
+	margin-bottom: 30px;
+}
+.hheader{
+	font-size: 50px;
+	font-family:tahoma;
+	text-align: center;
+}
+.jb{
+	text-align: justify;
+	padding-left:40px;
+	padding-right: 40px;
+
+}
+.jumbotron{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.crystals{
+	height:105px;
+	width:90px;
+	
+}
+img{
+	height:110px;
+	width:100px;
+
+}
+.ihead{
+	font-size: 50px;
+	text-align: center;
+}
+.score{
+	background:teal;
+	height:80px;
+	font-size: 25px;
+	color:#cccccc;
+}
+.wins{
+	background:green;
+	height:80px;
+	color:#ccc;
+	font-size: 25px;
+}
+.losses{
+	background:red;
+	height:80px;
+	color:#ccc;
+	font-size: 25px
+}
+
+.wl{
+	height:80px;
+	background:teal;
+}
