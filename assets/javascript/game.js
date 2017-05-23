@@ -44,7 +44,7 @@ $(document).ready(function()
 			$("stone4").attr("crystalvalue", number3[3]);
 		}
 		//
-		$("#stone").on("click",function()
+		$(".stone").on("click",function()
 		{
 			var crystalValue = ($(this).attr("crystalvalue"));
 		    crystalValue = parseInt(crystalValue);
