@@ -18,6 +18,7 @@ body{
 .jumbotron{
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin:30px;
 }
 .crystals{
 	height:105px;
@@ -55,4 +56,11 @@ img{
 .wl{
 	height:80px;
 	background:teal;
+}
+@media only screen and (max-width:399px){
+	.crystals{
+	height:75px;
+	width:50px;
+	}
+
 }
